@@ -6,7 +6,7 @@ on:
   pull_request:
     branches: [ main, master ]
   workflow_dispatch:
-
+  # This is the best CI pipeline
 jobs:
   build:
     runs-on: ubuntu-latest
